@@ -6,7 +6,7 @@ MAINTAINER Joseph Long <help@stsci.edu>
 #
 USER root
 
-apt-get update
+# apt-get update
 
 USER main
 
