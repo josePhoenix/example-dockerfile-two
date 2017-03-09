@@ -4,8 +4,9 @@ MAINTAINER Joseph Long <help@stsci.edu>
 
 # Steps to be performed by root:
 #
-# USER root
-#
+USER root
+
+apt-get update
 
 USER main
 
