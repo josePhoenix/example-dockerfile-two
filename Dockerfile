@@ -1,12 +1,11 @@
 FROM andrewosh/binder-base
 
-MAINTAINER Jeremy Freeman <freeman.jeremy@gmail.com>
+MAINTAINER Joseph Long <help@stsci.edu>
 
-USER root
-
-# Add dependency
-RUN apt-get update
-RUN apt-get install -y graphviz
+# Steps to be performed by root:
+#
+# USER root
+#
 
 USER main
 
