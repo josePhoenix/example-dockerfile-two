@@ -13,4 +13,4 @@ RUN /home/main/anaconda/envs/python3/bin/pip install -r requirements.txt
 RUN df -h
 RUN curl -OL http://www.stsci.edu/~mperrin/software/webbpsf/webbpsf-data-0.5.0.tar.gz
 RUN tar xvzf webbpsf-data-0.5.0.tar.gz
-RUN echo "export WEBBPSF_PATH=/home/main/webbpsf-data/" >> ~/.binder_start
+RUN echo "export WEBBPSF_PATH=/home/main/notebooks/webbpsf-data/" >> ~/.binder_start
